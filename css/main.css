@@ -1,0 +1,15 @@
+
+/****** link navbar main ********/
+
+#link-black{
+    color: #3F4244;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#link-black:hover{
+    background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
+    color: #fff;    
+
+}

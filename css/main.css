@@ -59,6 +59,13 @@
     font-size: 35px;
     color: #FFFFFF;
 }
+
+.title-four{
+    font-family: Roboto;
+    font-size: 35px;
+    color: #3F4244;
+}
+
 /****** Divs Center ********/
 
 .center-banner-one{ 
@@ -87,7 +94,7 @@
 
 .text-card{
     font-family: Roboto;
-    font-size: 13px;
+    font-size: 15px;
     color: #929BA0;
 }
 

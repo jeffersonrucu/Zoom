@@ -24,10 +24,27 @@
     height: 690px;
     background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
  }
-/****** background sections ********/
+
+ .size-blue{
+    height: 1753px;
+ }
+
+ .size-card-one{
+    width: 373px;
+    height: 372px;
+ }
+/****** Margins ********/
 
 .margin-one{
     margin-top: 83px;
+}
+
+.margin-two{
+    margin-top: 100px;
+}
+
+.margin-nav{
+    padding: 0 70px;
 }
 
 .margin-text{
@@ -40,6 +57,14 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.margin-title-div-two{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /****** formation title ********/
 
 .title-one{
@@ -63,6 +88,12 @@
 .title-four{
     font-family: Roboto;
     font-size: 35px;
+    color: #3F4244;
+}
+
+.title-five{
+    font-family: Roboto;
+    font-size: 18px;
     color: #3F4244;
 }
 
@@ -98,11 +129,19 @@
     color: #929BA0;
 }
 
-.text-sub{
+.text-sub-one{
     font-family: Roboto;
     font-size: 13px;
     color: #FFFFFF;
 }
+
+.text-sub-two{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+}
+
+
 
 /******  cell phone  ********/
 
@@ -117,4 +156,12 @@
 
 #phones{
     height: 450px;
+}
+
+/******  links  ********/
+
+.text-sub-two:hover{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #fff;
 }

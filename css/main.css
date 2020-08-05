@@ -76,7 +76,7 @@
     background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
 }
 
-/****** text  ********/
+/******  text  ********/
 
 .text-button{
     font-family: Roboto;
@@ -95,4 +95,19 @@
     font-family: Roboto;
     font-size: 13px;
     color: #FFFFFF;
+}
+
+/******  cell phone  ********/
+
+#cell-back{
+    left: 260px;
+    top: 55px;
+}
+
+#cell-front{
+    left: 100px;
+}
+
+#phones{
+    height: 450px;
 }

@@ -38,6 +38,7 @@
 .background-blue-card{
     background: #6DFFC6;
     border: solid #fff 2px;
+    height: 391px;
 }
 
  .size-blue{
@@ -53,6 +54,10 @@
  .size-card-one{
     width: 373px;
     height: 372px;
+ }
+
+ .size-cell{
+    height: 500px;
  }
 
 /****** Margins ********/
@@ -87,6 +92,10 @@
     justify-content: center;
 }
 
+.margin_meio{
+    margin-top: 50%;
+}
+
 /****** formation title ********/
 
 .title-one{
@@ -119,6 +128,12 @@
     color: #3F4244;
 }
 
+.title-sex{
+    font-family: Roboto;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
 /****** Divs Center ********/
 
 .center-banner-one{ 
@@ -127,6 +142,13 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.center-banner-two{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
 
 /****** button ********/
 
@@ -158,6 +180,12 @@
 }
 
 .text-sub-two{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #000000;
+}
+
+.text-sub-three{
     font-family: Roboto;
     font-size: 16px;
     color: #000000;
@@ -210,3 +238,4 @@
     height: 53px;
     background: url(../img/Combinedbotao.png)
 }
+

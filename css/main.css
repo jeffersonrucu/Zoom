@@ -13,3 +13,48 @@
 
 }
 
+/****** background sections ********/
+
+.background-blue{
+    background: linear-gradient(180deg, #6DFFC6 0%, rgba(63, 210, 206, 0.99) 61.36%);
+    height: 613px;
+ }
+
+
+/****** formation title ********/
+
+.title-one{
+    font-family: Roboto;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+
+/****** Divs Center ********/
+
+.center-banner-one{ 
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/****** button ********/
+
+.button-new{
+    width: 230px;
+    height: 60px;
+    background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
+}
+
+.text-button{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+
+

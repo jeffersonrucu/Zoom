@@ -20,24 +20,24 @@
     height: 613px;
  }
 
- .background-red{
+.background-red{
     height: 690px;
     background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
  }
 
- .background-red-div{
+.background-red-div{
     height: 373px;
     background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
  }
 
- .background-black{
+.background-black{
     height: 333px;
     background: #233537;
 }
 
 .background-black-map{
     height: 403px;
-    background: #233537;
+    background: #232E3D;
 }
 
 .background-blue-card{
@@ -49,6 +49,12 @@
     background: #6DFFC6;
     padding: 10% 10%;
 }
+
+.background-black-rodape{
+    height: 35px;
+    background: #233537;
+}
+
 
  .size-blue{
     height: 1753px;
@@ -211,6 +217,7 @@
     font-size: 13px;
     color: #10CAB7;
 }
+
 
 
 /******  cell phone  ********/

@@ -20,6 +20,10 @@
     height: 613px;
  }
 
+ .background-red{
+    height: 690px;
+    background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
+ }
 /****** background sections ********/
 
 .margin-one{
@@ -28,6 +32,13 @@
 
 .margin-text{
     margin-top: 20px;
+}
+
+.margin-title-div{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /****** formation title ********/
 
@@ -43,6 +54,11 @@
     color: #3F4244;
 }
 
+.title-three{
+    font-family: Roboto;
+    font-size: 35px;
+    color: #FFFFFF;
+}
 /****** Divs Center ********/
 
 .center-banner-one{ 
@@ -60,6 +76,8 @@
     background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
 }
 
+/****** text  ********/
+
 .text-button{
     font-family: Roboto;
     font-size: 15px;
@@ -67,15 +85,14 @@
     text-align: center;
 }
 
-/****** text cards ********/
-
 .text-card{
     font-family: Roboto;
     font-size: 13px;
     color: #929BA0;
 }
 
-
-
-
-
+.text-sub{
+    font-family: Roboto;
+    font-size: 13px;
+    color: #FFFFFF;
+}

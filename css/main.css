@@ -54,6 +54,7 @@
     width: 373px;
     height: 372px;
  }
+
 /****** Margins ********/
 
 .margin-one{
@@ -196,4 +197,16 @@
 
 #quote{
     height: 373px;
+}
+
+/******  div notic ********/
+
+#size-new{
+    height: 303px;
+ }
+
+.btn-outline{
+    width: 173px;
+    height: 53px;
+    background: url(../img/Combinedbotao.png)
 }

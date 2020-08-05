@@ -38,7 +38,6 @@
 .background-blue-card{
     background: #6DFFC6;
     border: solid #fff 2px;
-    height: 391px;
 }
 
  .size-blue{
@@ -191,6 +190,12 @@
     color: #000000;
 }
 
+.text-sub-four{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
 .text-blue{
     font-family: Roboto;
     font-size: 13px;
@@ -239,3 +244,7 @@
     background: url(../img/Combinedbotao.png)
 }
 
+.back-blue{
+    width: 100%;
+    height: 600px;
+}

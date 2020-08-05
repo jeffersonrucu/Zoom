@@ -25,6 +25,11 @@
     background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
  }
 
+ .background-red-div{
+    height: 373px;
+    background: linear-gradient(173.37deg, #FF6C54 11.8%, #FF2B59 89.23%);
+ }
+
  .background-black{
     height: 333px;
     background: #233537;
@@ -185,4 +190,10 @@
     font-family: Roboto;
     font-size: 16px;
     color: #fff;
+}
+
+/******  div quote  ********/
+
+#quote{
+    height: 373px;
 }

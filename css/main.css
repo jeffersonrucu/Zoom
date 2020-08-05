@@ -35,9 +35,19 @@
     background: #233537;
 }
 
+.background-black-map{
+    height: 403px;
+    background: #233537;
+}
+
 .background-blue-card{
     background: #6DFFC6;
     border: solid #fff 2px;
+}
+
+.background-blue-box{
+    background: #6DFFC6;
+    padding: 10% 10%;
 }
 
  .size-blue{

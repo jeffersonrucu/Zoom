@@ -20,7 +20,15 @@
     height: 613px;
  }
 
+/****** background sections ********/
 
+.margin-one{
+    margin-top: 83px;
+}
+
+.margin-text{
+    margin-top: 20px;
+}
 /****** formation title ********/
 
 .title-one{
@@ -29,6 +37,11 @@
     color: #FFFFFF;
 }
 
+.title-two{
+    font-family: Roboto;
+    font-size: 23px;
+    color: #3F4244;
+}
 
 /****** Divs Center ********/
 
@@ -52,6 +65,14 @@
     font-size: 15px;
     color: #FFFFFF;
     text-align: center;
+}
+
+/****** text cards ********/
+
+.text-card{
+    font-family: Roboto;
+    font-size: 13px;
+    color: #929BA0;
 }
 
 

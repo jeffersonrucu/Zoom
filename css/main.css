@@ -30,6 +30,11 @@
     background: #233537;
 }
 
+.background-blue-card{
+    background: #6DFFC6;
+    border: solid #fff 2px;
+}
+
  .size-blue{
     height: 1753px;
  }
@@ -102,7 +107,7 @@
     color: #3F4244;
 }
 
-.title-five{
+.title-fiv{
     font-family: Roboto;
     font-size: 18px;
     color: #3F4244;

@@ -49,6 +49,14 @@
 
 }
 
+.title-quaternary{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 40px;
+    color: #3F4244;
+
+}
+
 /******** text **********/
 
 .text-sub{
@@ -61,6 +69,13 @@
 .text-tertiary{
     font-family: Roboto;
     font-size: 13px;
+    line-height: 15px;
+    color: #929BA0;
+}
+
+.text-quaternary{
+    font-family: Roboto;
+    font-size: 15px;
     line-height: 15px;
     color: #929BA0;
 }

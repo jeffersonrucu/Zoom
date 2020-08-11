@@ -33,6 +33,10 @@
 .margin-status{
     padding: 50px 0px;
 }
+
+.margin-team{
+    margin-top: 125px;
+}
 /******** title **********/
 
 .title-primary{
@@ -64,11 +68,16 @@
 
 }
 
-.title-cards{
+.title-card-one{
     font-family: Roboto;
     font-size: 15px;
     color: #3F4244;
+}
 
+.title-card-two{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #3F4244;
 }
 
 .title-status{
@@ -159,7 +168,7 @@
 /******** center **********/
 
 .center-background-blue{ 
-    height: 709px;;
+    height: 790px;;
     display: flex;
     flex-direction: column;
     justify-content: center;

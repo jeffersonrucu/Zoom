@@ -18,6 +18,14 @@
     margin-top: 83px;
 }
 
+.margin-title{
+    padding: 100px 0px;
+}
+
+.margin-img{
+    margin-top: ;
+}
+
 /******** title **********/
 
 .title-primary{
@@ -25,6 +33,13 @@
     font-weight: 300;
     font-size: 60px;
     color: #FFFFFF;
+}
+
+.title-secondary{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 40px;
+    color: #FFFFFF
 }
 
 .title-tertiary{
@@ -35,6 +50,13 @@
 }
 
 /******** text **********/
+
+.text-sub{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+}
 
 .text-tertiary{
     font-family: Roboto;
@@ -93,3 +115,8 @@
     justify-content: center;
 }
 
+/******** Img **********/
+
+.image-size{
+    width: 100%;
+}

@@ -4,6 +4,20 @@
     background: #ffffff;
 }
 
+.background-blue{
+    background: linear-gradient(180deg, #6DFFC6 0%, rgba(63, 210, 206, 0.99) 61.36%);
+    height:100%;
+}
+
+/******** title **********/
+
+.title-primary{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
 /******** buttons **********/
 
 .navbar-light .navbar-nav .nav-link {
@@ -19,5 +33,19 @@
     font-family: Roboto
 }
 
+.button-red-primary{
+    background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
+    width: 253px;
+    height: 73px;
+}
 
+
+/******** center **********/
+
+.center-background-blue{ 
+    height: 709px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 

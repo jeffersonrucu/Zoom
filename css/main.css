@@ -57,6 +57,13 @@
 
 }
 
+.title-cards{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+
+}
+
 /******** text **********/
 
 .text-sub{
@@ -134,4 +141,19 @@
 
 .image-size{
     width: 100%;
+}
+
+/******** link **********/
+
+.nav-secondary{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+    padding: 0 50px;
+}
+
+.nav-secondary:hover{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #ffffff;
 }

@@ -12,6 +12,10 @@
     background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
 }
 
+.background-grey{
+    background: #233537;
+}
+
 /******** Margin **********/
 
 .margin-section{
@@ -26,6 +30,9 @@
     margin-top: ;
 }
 
+.margin-status{
+    padding: 50px 0px;
+}
 /******** title **********/
 
 .title-primary{
@@ -64,6 +71,13 @@
 
 }
 
+.title-status{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
 /******** text **********/
 
 .text-sub{
@@ -97,6 +111,20 @@
     font-family: Roboto;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.text-blue{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #10CAB7;
+}
+
+.text-blue-sm{
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 15px;
+    color: #10CAB7;
 }
 
 /******** buttons **********/

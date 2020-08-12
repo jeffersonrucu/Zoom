@@ -194,3 +194,10 @@
     font-size: 15px;
     color: #ffffff;
 }
+
+/******** size **********/
+
+.img-size-carosel{
+    width: 36px;
+    height: 36px;
+}

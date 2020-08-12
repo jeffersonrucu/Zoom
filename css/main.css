@@ -26,6 +26,10 @@
     padding: 100px 0px;
 }
 
+.margin-title-two{
+    padding: 70px 0px;
+}
+
 .margin-img{
     margin-top: ;
 }
@@ -163,6 +167,12 @@
 
 .btn-primary {
     border-color: black;
+}
+
+.btn-outline {
+    width: 173px;
+    height: 53px;
+    background: url(../img/Combinedbotao.png);
 }
 
 /******** center **********/

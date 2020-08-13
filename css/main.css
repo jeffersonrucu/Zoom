@@ -247,4 +247,11 @@
 
 input.form-control.p-4::placeholder {
     color: #fff;
-  }
+}
+
+
+  /******** shadow / animation **********/
+
+.shadow-box-center{
+    box-shadow: 3px 9px 26px -10px rgba(28,28,28,1);
+}

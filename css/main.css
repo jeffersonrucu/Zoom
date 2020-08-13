@@ -16,6 +16,10 @@
     background: #233537;
 }
 
+.background-blue-dark{
+    background: #232E3D;
+}
+
 /******** Margin **********/
 
 .margin-section{
@@ -180,7 +184,7 @@
 }
 
 .btn-primary {
-    border-color: black;
+    border-color: transparent;
 }
 
 .btn-outline {

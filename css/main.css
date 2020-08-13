@@ -46,6 +46,10 @@
     margin-top: 125px;
 }
 
+.margin-contact{
+    margin-top: 60px;
+}
+
 
 /******** title **********/
 
@@ -254,4 +258,64 @@ input.form-control.p-4::placeholder {
 
 .shadow-box-center{
     box-shadow: 3px 9px 26px -10px rgba(28,28,28,1);
+}
+
+.shadow-title-blue{
+    text-shadow:0px 10px 8px #1b4032;
+
+}
+
+.shadow-title-black{
+    text-shadow:0px 10px 8px #000000;
+
+}
+
+.shadow-button-blue{
+    box-shadow: 0px 13px 27px -14px #1b4032;
+
+}
+
+.transition-bottun-principal{
+    box-shadow: 0px 16px 13px -4px #378064;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.button-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(80%);
+}
+
+.transition-nav-principal{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.nav-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
+}
+
+.transition-img-principal{
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+.img-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
+}
+
+.transition-card-principal{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.card-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
 }

@@ -200,7 +200,6 @@
 /******** center **********/
 
 .center-background-blue{ 
-    height: 790px;;
     display: flex;
     flex-direction: column;
     justify-content: center;

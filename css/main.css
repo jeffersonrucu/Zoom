@@ -1,0 +1,323 @@
+<<<<<<< HEAD
+=======
+/******** Background **********/
+
+.background-white{
+    background: #ffffff;
+}
+
+.background-blue{
+    background: linear-gradient(180deg, #6DFFC6 0%, rgba(63, 210, 206, 0.99) 61.36%);
+}
+
+.background-red{
+    background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
+}
+
+.background-grey{
+    background: #233537;
+}
+
+.background-blue-dark{
+    background: #232E3D;
+}
+
+/******** Margin **********/
+
+.margin-section{
+    margin-top: 83px;
+}
+
+.margin-title{
+    padding: 100px 0px;
+}
+
+.margin-title-two{
+    padding: 70px 0px;
+}
+
+.margin-img{
+    margin-top: ;
+}
+
+.margin-status{
+    padding: 50px 0px;
+}
+
+.margin-team{
+    margin-top: 125px;
+}
+
+.margin-contact{
+    margin-top: 60px;
+}
+
+
+/******** title **********/
+
+.title-primary{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.title-secondary{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 40px;
+    color: #FFFFFF
+}
+
+.title-tertiary{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+
+}
+
+.title-quaternary{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 40px;
+    color: #3F4244;
+
+}
+
+.title-card-one{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+}
+
+.title-card-two{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #3F4244;
+}
+
+.title-status{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.title-phone{
+    font-family: Roboto;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/******** text **********/
+
+.text-sub{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
+.text-tertiary{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #929BA0;
+}
+
+.text-quaternary{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 15px;
+    color: #929BA0;
+}
+
+.text-button-primary{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.text-button-secondary{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.text-blue{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #10CAB7;
+}
+
+.text-blue-sm{
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 15px;
+    color: #10CAB7;
+}
+
+.text-card-black{
+    font-family: Roboto;
+    font-size: 13px;
+    color: #243638;
+}
+
+/******** buttons **********/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3F4244;
+    font-size: 15px;
+    font-family: Roboto
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
+    color: #fff; 
+    border-radius: 5px 5px; 
+    font-family: Roboto
+}
+
+.button-primary{
+    width: 253px;
+    height: 73px;
+}
+
+.button-secondary{
+    width: 253px;
+    height: 73px;
+}
+
+.btn-primary {
+    border-color: transparent;
+}
+
+.btn-outline {
+    width: 173px;
+    height: 53px;
+    background: url(../img/Combinedbotao.png);
+}
+
+/******** center **********/
+
+.center-background-blue{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/******** Img **********/
+
+.image-size{
+    width: 100%;
+}
+
+/******** link **********/
+
+.nav-secondary{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+    padding: 0 50px;
+}
+
+.nav-secondary:hover{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/******** size **********/
+
+.img-size-carosel{
+    width: 36px;
+    height: 36px;
+}
+
+/******** form **********/
+
+.form-control{
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #fff;
+    border-radius: 0%;
+    color: #fff !important;
+}
+
+.form-control:focus {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 0.0;
+}
+
+input.form-control.p-4::placeholder {
+    color: #fff;
+}
+
+
+  /******** shadow / animation **********/
+
+.shadow-box-center{
+    box-shadow: 3px 9px 26px -10px rgba(28,28,28,1);
+}
+
+.shadow-title-blue{
+    text-shadow:0px 10px 8px #1b4032;
+
+}
+
+.shadow-title-black{
+    text-shadow:0px 10px 8px #000000;
+
+}
+
+.shadow-button-blue{
+    box-shadow: 0px 13px 27px -14px #1b4032;
+
+}
+
+.transition-bottun-principal{
+    box-shadow: 0px 16px 13px -4px #378064;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.button-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(80%);
+}
+
+.transition-nav-principal{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.nav-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
+}
+
+.transition-img-principal{
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+.img-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
+}
+
+.transition-card-principal{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.card-animation-principal:hover {
+    -webkit-transform: scale(0.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(95%);
+}
+>>>>>>> develop

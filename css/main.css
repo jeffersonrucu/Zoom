@@ -1,0 +1,22 @@
+/******** Background **********/
+
+.background-white{
+    background: #ffffff;
+}
+
+/******** button **********/
+.navbar-light .navbar-nav .nav-link {
+    color: #3F4244;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+/******** button:hover **********/
+.navbar-light .navbar-nav .nav-link:hover{
+    background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
+    color: #fff; 
+    border-radius: 5px 5px; 
+    font-family: Roboto
+}
+
+

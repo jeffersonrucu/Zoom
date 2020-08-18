@@ -157,6 +157,13 @@ body{
     color: #3F4244; 
 }
 
+.title-card-blue{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3F4244;
+}
+
 .title-primary {
     font-weight: normal;
     font-size: 40px;

@@ -69,9 +69,6 @@ body{
     padding: 100px 0px;
 }
 
-.margin-padding-top-bottom-small{
-    padding: 50px 0px;
-}
 
 .margin-padding-small{
     padding: 0px 50px;
@@ -208,7 +205,10 @@ body{
     line-height: 15px;
 }
 
-
+.text-medium{
+    font-weight: 300;
+    font-size: 20px;
+}
 
 
 
@@ -283,6 +283,11 @@ body{
     height: 60px;
 }
 
+.btn-outline {
+    width: 173px;
+    height: 53px;
+    background: url(../img/Combinedbotao.png);
+}
 
 
 

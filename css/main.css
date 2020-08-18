@@ -1,7 +1,69 @@
 /******** Background **********/
-
 .background-white{
-    background: #ffffff;
+    background: #fff;
+}
+
+.background-blue{
+    background: linear-gradient(180deg, #6DFFC6 0%, rgba(63, 210, 206, 0.99) 61.36%);
+}
+
+.background-red{
+    background: linear-gradient(180deg, #FF6C54 0%, #FF2B59 100%);
+}
+
+.background-grey{
+    background: #233537;
+}
+
+.background-blue-dark{
+    background: #232E3D;
+}
+
+/******** margin **********/
+.margin-main{
+    margin-top: 83px;
+}
+
+/******** center **********/
+.main-banner-size{
+    min-height: 620px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/******** title **********/
+#title-main-banner{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.title-card-transparent{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3F4244;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/******** text **********/
+.text-small {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.text-extra-small{
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+/******** color **********/
+.text-color-secondary{
+    color: #929BA0;
 }
 
 /******** button **********/
@@ -11,12 +73,45 @@
     font-family: Roboto;
 }
 
-/******** button:hover **********/
+.button-main {
+    width: 253px;
+    height: 73px;
+}
+
+.button-primary {
+    width: 200px;
+    height: 60px;
+}
+
+/******** button:HOV **********/
 .navbar-light .navbar-nav .nav-link:hover{
     background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
     color: #fff; 
     border-radius: 5px 5px; 
     font-family: Roboto
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem
+}
+
+.btn-primary:focus {
+    background-color: transparent;
+    border-color: transparent;
+}   
+.btn-primary {
+    border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: transparent;
+    border-color: transparent;
 }
 
 

@@ -142,8 +142,8 @@ body{
 .title-primary {
     font-weight: normal;
     font-size: 40px;
-    color: #FFFFFF;
 }
+
 
 
 
@@ -203,8 +203,12 @@ body{
 
 
 /******** color **********/
-.text-color-secondary{
+.text-color-darkgray{
     color: #929BA0;
+}
+
+.text-color-greyblack{
+    color: #3F4244;
 }
 
 

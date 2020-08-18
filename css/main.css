@@ -65,8 +65,12 @@ body{
     margin-top: 83px;
 }
 
-.margin-padding-big{
+.margin-padding-top-bottom-big{
     padding: 100px 0px;
+}
+
+.margin-padding-top-bottom-small{
+    padding: 50px 0px;
 }
 
 .margin-padding-small{
@@ -371,7 +375,33 @@ body{
 
 
 
+/******** carousel **********/
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next:hover{
+    background: url(../img/bota_Seta_dois.png);
+    width: 31px;
+    height: 32px;
+    color: transparent; 
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev:hover{
+    background: url(../img/botao_seta_um.png);
+    width: 31px;
+    height: 32px;
+    color: transparent; 
+}
+
+button:focus{
+    outline: none;
+}
+
+.owl-carousel .owl-item {
+    min-height: 150px;
+}
+
+.owl-carousel .owl-item img {
+    width: 36px;
+}
 
 
 

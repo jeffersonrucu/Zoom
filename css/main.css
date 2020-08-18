@@ -65,10 +65,21 @@ body{
     margin-top: 83px;
 }
 
-.margin-title{
+.margin-padding-big{
     padding: 100px 0px;
 }
 
+.margin-padding-small{
+    padding: 0px 50px;
+}
+
+.margin-padding-card{
+    padding: 15px 0px;
+}
+
+.margin-padding-status {
+    padding: 50px 0px;
+}
 
 
 
@@ -137,6 +148,13 @@ body{
     color: #3F4244;
     font-weight: 500;
     line-height: 1.2;
+}
+
+.title-card-white{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3F4244; 
 }
 
 .title-primary {
@@ -211,7 +229,9 @@ body{
     color: #3F4244;
 }
 
-
+.text-color-deepskyblue{
+    color: #10CAB7;
+}
 
 
 
@@ -279,7 +299,7 @@ body{
 
 
 
-/******** button:HOV **********/
+/******** :::HOV **********/
 .navbar-light .navbar-nav .nav-link:hover{
     background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
     color: #fff; 
@@ -309,6 +329,12 @@ body{
     border-color: transparent;
 }
 
+.nav-filter:hover{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #ffffff;
+}
+
 
 
 
@@ -335,3 +361,10 @@ body{
 .image-size {
     width: 100%;
 }
+
+
+
+
+
+
+

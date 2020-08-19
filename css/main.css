@@ -69,6 +69,10 @@ body{
     padding: 100px 0px;
 }
 
+.margin-padding-top-bottom-phone{
+    padding: 70px 0px;
+}
+
 
 .margin-padding-small{
     padding: 0px 50px;
@@ -170,7 +174,9 @@ body{
     font-size: 40px;
 }
 
-
+.title-secondary{
+    font-size: 25px;
+}
 
 
 

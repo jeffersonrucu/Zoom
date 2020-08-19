@@ -5,7 +5,6 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     dots:false,
     items:1,
-    stagePadding:30,
     smartSpeed:150,
     animateOut: 'animate__fadeOut',
     animateIn: 'animate__fadeInDown',

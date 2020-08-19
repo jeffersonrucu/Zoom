@@ -2,17 +2,6 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /******** Background **********/
 .background-white{
     background: #fff;
@@ -33,32 +22,6 @@ body{
 .background-blue-dark{
     background: #232E3D;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /******** margin **********/
 .margin-main{
@@ -86,27 +49,6 @@ body{
     padding: 50px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******** center **********/
 .main-banner-size{
     min-height: 620px;
@@ -115,32 +57,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /******** title **********/
 #title-main-banner{
@@ -178,29 +94,6 @@ body{
     font-size: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******** text **********/
 .text-small {
     font-size: 15px;
@@ -215,27 +108,6 @@ body{
     font-size: 20px;
     font-weight: 500
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /******** color **********/
 .text-color-darkgray{
@@ -253,28 +125,6 @@ body{
 .text-color-greydark{
     color: #243638;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /******** button **********/
 .navbar-light .navbar-nav .nav-link {
@@ -297,32 +147,6 @@ body{
     height: 53px;
     background: url(../img/Combinedbotao.png);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /******** :::HOV **********/
 .navbar-light .navbar-nav .nav-link:hover{
@@ -360,34 +184,11 @@ body{
     color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******** Image **********/
 
 .image-size {
     width: 100%;
 }
-
-
 
 /******** carousel **********/
 
@@ -416,9 +217,6 @@ button:focus{
 .owl-carousel .owl-item img {
     width: 36px;
 }
-
-
-
 
 /******** form **********/
 

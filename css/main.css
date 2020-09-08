@@ -36,7 +36,6 @@ body{
     padding: 70px 0px;
 }
 
-
 .margin-padding-small{
     padding: 0px 50px;
 }
@@ -194,23 +193,75 @@ body{
 
 /******** carousel **********/
 
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next:hover{
-    background: url(../img/bota_Seta_dois.png);
-    width: 31px;
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-next:hover{
+    width: 32px;
     height: 32px;
-    color: transparent; 
+    color: transparent;
+    position: relative;
+    background-color: #fff;
+    border-radius: 100%; 
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev:hover{
-    background: url(../img/botao_seta_um.png);
-    width: 31px;
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-prev:hover{
+    width: 32px;
     height: 32px;
     color: transparent; 
+    position: relative;
+    background-color: #fff;
+    border-radius: 100%;
 }
 
-button:focus{
-    outline: none;
+.owl-carousel .owl-nav button.owl-next::before {
+    content: '';
+    background-color: #ff3E57;
+    width: 1px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    transform: rotate(45deg);
 }
+
+.owl-carousel .owl-nav button.owl-next::after {
+    content: '';
+    background-color: #ff3E57;
+    width: 1px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    transform: rotate(-45deg);
+}
+
+.owl-carousel .owl-nav button.owl-prev::before {
+    content: '';
+    background-color: #ff3E57;
+    width: 1px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transform: rotate(135deg);
+}
+
+.owl-carousel .owl-nav button.owl-prev::after {
+    content: '';
+    background-color: #ff3E57;
+    width: 1px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    transform: rotate(-135deg);
+}
+
 
 .owl-carousel .owl-item {
     min-height: 150px;
@@ -259,3 +310,4 @@ input.form-control.p-4::placeholder {
     transform: scale(1.1);
     transition: all 0.3s;
 }
+
